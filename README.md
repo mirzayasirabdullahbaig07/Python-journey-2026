@@ -1,51 +1,96 @@
-# Python Learning Journey 2026 🐍
+# 🤖 AI Automation Repository
 
-Welcome to my Python Learning Journey! This repository tracks my progress, notes, and projects as I explore Python in 2026.  
+Welcome to the **AI Automation Repository** — a complete, hands-on guide to building powerful automation workflows, from basic concepts to advanced AI-driven systems.
 
----
-
-## 📚 Table of Contents
-
-1. [Introduction](#introduction)
-2. [Setup](#setup)
-3. [Python Basics](#python-basics)
-4. [Data Structures](#data-structures)
-5. [Functions & Modules](#functions--modules)
-6. [Object-Oriented Programming (OOP)](#object-oriented-programming-oop)
-7. [File Handling](#file-handling)
-8. [Error Handling & Exceptions](#error-handling--exceptions)
-9. [Python Libraries](#python-libraries)
-10. [Projects](#projects)
-11. [Resources](#resources)
-12. [Next Steps](#next-steps)
+This repository is designed for **developers, business owners, and technical teams** who want to:
+- Increase productivity
+- Reduce manual work and human error
+- Build scalable automation systems
+- Leverage AI in real-world workflows
 
 ---
 
-## 📝 Introduction
+## 📚 Course Overview
 
-Python is a versatile programming language used for web development, data science, automation, AI, and more.  
-This repository is structured to follow a step-by-step learning path.
+This repository follows a structured, end-to-end learning path:
+
+### 1. Introduction & Context
+- What is business automation?
+- Why automation matters in modern workflows
+- Real-world use cases and benefits
 
 ---
 
-## ⚙️ Setup
+### 2. Automation Fundamentals
+- Core concepts of automation
+- Understanding workflows
+- How automation systems operate
+- Key components of workflow design
 
-### Install Python
+---
 
-Download and install the latest version of Python from the official website:  
-[Python.org](https://www.python.org/downloads/)
+### 3. n8n Platform Basics
+- Overview of the n8n interface
+- Key components and nodes
+- Understanding triggers and actions
 
-### Recommended Tools
+---
 
-- **IDE / Editor:** [VS Code](https://code.visualstudio.com/) or [PyCharm](https://www.jetbrains.com/pycharm/)
-- **Package Manager:** `pip`
-- **Virtual Environment:** `venv` or `virtualenv`
+### 4. Installation & Setup
+- Local installation guide
+- Docker-based setup
+- Environment configuration
 
+---
+
+### 5. Creating Your First Workflow
+- Step-by-step beginner workflow
+- Connecting nodes
+- Testing and debugging
+
+---
+
+### 6. Building Practical Automations
+- Real-world automation examples
+- API integrations
+- Data handling and transformations
+
+---
+
+### 7. AI & Agent-Based Workflows
+- Introduction to AI in automation
+- Using AI models in workflows
+- Building intelligent agents
+- Decision-making automation
+
+---
+
+### 8. End-to-End Project
+- Complete automation system build
+- From idea to deployment
+- Best practices and optimization
+
+---
+
+### 9. Recap & Next Steps
+- Key takeaways
+- Scaling automation systems
+- Future improvements and extensions
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Basic programming knowledge (recommended)
+- Node.js or Docker installed
+- Internet connection for API integrations
+
+---
+
+### Installation (Quick Start)
+
+#### Option 1: Local Setup
 ```bash
-# Create a virtual environment
-python -m venv env
-# Activate the environment
-# Windows
-env\Scripts\activate
-# macOS / Linux
-source env/bin/activate
+npm install n8n -g
+n8n
